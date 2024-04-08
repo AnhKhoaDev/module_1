@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        background-color: red;
+    }
+
+    label {
+        color: blue;
+        margin-left: 20px;
+    }
+
+    .hobby{
+        color: orange;
+    }
+</style>
+<body>
+<h1>SỞ THÍCH CỦA BẠN</h1>
+<form>
+    <label for="yourname">Họ và tên:</label>
+    <input id="yourname" type="text" name="yourname" style="margin-left: 4px; margin-bottom: 10px" size="30"/>
+    <br>
+
+    <label for="email" style="padding-left: 28px">Email: </label>
+    <input id="email" type="email" name="email" style="margin-left: 4px; margin-bottom: 10px"/>
+    <br>
+
+    <label style="padding-left: 8px;  margin-bottom: 10px">Sở thích:
+        <span>
+                <input type="checkbox" name="hobby" id="hobby">
+                <label class="hobby" for="hobby">Thể thao</label>
+                <input type="checkbox" name="hobby" id="hobby1" style="margin-left: 16px;"/>
+                <label class="hobby" for="hobby1">Âm nhạc</label>
+                <input type="checkbox" name="hobby" id="hobby2" style="margin-left: 25px"/>
+                <label class="hobby" for="hobby2">Đọc sách</label>
+                <br>
+                <input type="checkbox" name="hobby" id="hobby3" style="margin-left: 102px"/>
+                <label class="hobby" for="hobby3">Lướt web</label>
+                <input type="checkbox" name="hobby" id="hobby4" style="margin-left: 10px"/>
+                <label class="hobby" for="hobby4">Chơi game</label>
+                <input type="checkbox" name="hobby" id="hobby5" style="margin-left: 9px"/>
+                <label class="hobby" for="hobby5">Điện ảnh</label>
+                <br>
+                <input type="checkbox" name="hobby" id="hobby6" style="margin-left: 102px">
+                <label class="hobby" for="hobby6">Du lịch</label>
+        </span>
+    </label>
+    <br>
+    <input type="submit" name="submit" value="Gửi thông tin" style="margin-left: 100px; margin-top: 16px">
+    <input type="reset" name="submit" value="Nhập lại">
+</form>
+</body>
+</html>

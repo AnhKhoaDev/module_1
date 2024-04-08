@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<style>
+    body{
+        background-color: yellow;
+    }
+    h1{
+        background-color: aquamarine;
+        color: blue;
+    }
+
+    label{
+        padding-left: 16px;
+        color: blue;
+    }
+</style>
+<body>
+    <h1>ĐĂNG KÝ HỌC VIÊN</h1>
+    <label for="name">Họ và tên</label>
+    <input type="text" name="name" id="name" style="margin: 0 0 16px 10px">
+    
+    <br>
+    <label for="datetime">Ngày sinh</label>
+    <input type="date" name="datetime" id="datetime" style="margin: 0 0 16px 9px">
+    
+    <br>
+    <label>Giới tính</label>
+    <input type="radio" name="male" id="male" style="margin: 0 0 16px 20px">
+    <label for="male" style="color: black">Name</label>
+    <input type="radio" name="male" id="female">
+    <label for="female" style="color: black">Nữ</label>
+    
+    <br>
+    <label>Địa chỉ
+        <textarea style="margin-left: 30px"></textarea>
+    </label>
+
+    <br>
+    <label for="class">Lớp</label>
+    <select id="class" style="margin: 16px 0 16px 52px">
+        <option value="">-Chọn lớp-</option>
+    </select>
+
+    <br>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" style="margin: 0 0 16px 41px">
+
+    <br>
+    <label for="phone">Điện thoại</label>
+    <input type="text" name="phone" id="phone" style="margin: 0 0 16px 6px">
+
+    <br>
+    <input type="button" name="register" value="Đăng ký"style="margin: 0 0 16px 100px">
+    <input type="button" name="register" value="Nhập lại">
+</body>
+</html>
