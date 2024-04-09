@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    th, td{
+        padding-left: 16px;
+    }
+</style>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th>Amount</th>
+                <th>Form Currency</th>
+                <th>To Currency</th>
+            </tr>
+
+            <tr>
+                <td><label for="amount">
+                    <input type="text" name="amount" id="amount"/>
+                </label></td>
+                <td><label for="from_currency">
+                    <select name="from_currency" id="from_currency">
+                        <option value="vnd">VND</option>
+                        <option value="usd">USD</option>
+                    </select>
+                </label></td>
+                <td><label for="to_currency">
+                    <select name="to_currency" id="to_currency">
+                        <option value="vnd">VND</option>
+                        <option value="usd">USD</option>
+                    </select>
+                </label></td>
+                <td>
+                    <input type="submit" onclick="convertCurrency()" value="Nhập">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
+<script src="index.js"></script>
