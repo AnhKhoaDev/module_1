@@ -11,3 +11,4 @@ if (a == 0  && b != 0){
     document.write('Đây là năm nhuận')
 }else
     document.write('Đây là năm không nhuận')
+
