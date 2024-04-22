@@ -10,6 +10,6 @@ function minArray(arr) {
     return min;
 }
 
-let arr1 = [3, 5, 1, 8, -3, 7, 8gi];
+let arr1 = [3, 5, 1, 8, -3, 7, 8];
 let min = minArray(arr1);
 alert(min)
